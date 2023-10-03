@@ -16,3 +16,41 @@
    opacity:1;
    object-fit: cover;
   }
+
+
+  .img-main-2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top:-40px;
+   opacity:0.6;
+   object-fit:scale-down;
+  }
+
+  .index-section{
+    margin:0 !important
+  }
+
+  .feature-row{
+    padding: 50px 0;
+  }
+
+  .section--divider{
+    padding-top:0px !important
+  }
+
+  .background-list{
+   /* background-color: aquamarine; */
+  }
+
+  .image-wrap{
+    background: transparent !important;
+  }
+
+  body{
+    font-size: 17px !important;
+  }
+
+  .image-wrap img:not([role=presentation]){
+    object-fit: scale-down !important;
+  }
